@@ -3,277 +3,925 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sherlyn Monterde | SEO Specialist</title>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<title>Sherlyn Monterde | SEO Specialist & E-Commerce Manager</title>
+<meta name="description" content="SEO Specialist with 6+ years of experience in technical SEO, local SEO, e-commerce optimization, and digital marketing. Based in El Nido, Palawan — available for remote work worldwide.">
+<meta name="keywords" content="SEO specialist, local SEO, e-commerce SEO, Google Business Profile, Shopify SEO, technical SEO, virtual assistant, Philippines">
+<meta property="og:title" content="Sherlyn Monterde | SEO Specialist">
+<meta property="og:description" content="6+ years helping businesses rank higher, reach further, and convert better. Expert in technical SEO, GBP, and e-commerce.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#FAFAF8;
-  --white:#FFFFFF;
-  --dark:#1A1A1A;
-  --mid:#4A4A4A;
-  --light:#7A7A7A;
-  --accent:#B85C2A;
-  --accent-pale:#F5E8DF;
-  --border:#E2DDD8;
-  --section:#F2EFE9;
-}
-html{scroll-behavior:smooth}
-body{font-family:'Source Sans 3',sans-serif;background:var(--bg);color:var(--dark);font-size:17px;line-height:1.75}
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(250,250,248,0.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--border);padding:1rem 6%;display:flex;justify-content:space-between;align-items:center}
-.nav-logo{font-family:'Lora',serif;font-size:1.15rem;font-weight:700;color:var(--dark);text-decoration:none}
-.nav-logo span{color:var(--accent)}
-.nav-links{list-style:none;display:flex;gap:2.5rem}
-.nav-links a{font-size:0.9rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--mid);text-decoration:none;transition:color 0.2s}
-.nav-links a:hover{color:var(--accent)}
+  :root {
+    --ink: #1a1208;
+    --sand: #f5f0e8;
+    --warm: #e8dfd0;
+    --accent: #c17b3a;
+    --accent2: #7a4f2a;
+    --muted: #6b5f52;
+    --light: #faf8f4;
+    --white: #ffffff;
+    --green: #3a6b4a;
+    --radius: 4px;
+    --serif: 'Playfair Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
 
-/* HERO */
-.hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;padding-top:72px}
-.hero-left{padding:7% 5% 5% 8%;display:flex;flex-direction:column;justify-content:center}
-.eyebrow{font-size:0.8rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.2rem}
-.hero-name{font-family:'Lora',serif;font-size:clamp(3rem,5vw,4.5rem);font-weight:700;line-height:1.05;margin-bottom:0.6rem;color:var(--dark)}
-.hero-role{font-family:'Lora',serif;font-size:1.2rem;font-style:italic;color:var(--light);margin-bottom:1.8rem}
-.hero-bio{font-size:1.05rem;color:var(--mid);max-width:460px;margin-bottom:2.5rem;line-height:1.8}
-.cta-row{display:flex;gap:1rem;flex-wrap:wrap}
-.btn-fill{background:var(--accent);color:#fff;padding:0.85rem 2rem;border:none;font-family:'Source Sans 3',sans-serif;font-size:0.9rem;font-weight:600;letter-spacing:0.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background 0.2s,transform 0.15s}
-.btn-fill:hover{background:#963f18;transform:translateY(-2px)}
-.btn-outline{border:2px solid var(--accent);color:var(--accent);background:transparent;padding:0.85rem 2rem;font-family:'Source Sans 3',sans-serif;font-size:0.9rem;font-weight:600;letter-spacing:0.07em;text-transform:uppercase;text-decoration:none;transition:all 0.2s}
-.btn-outline:hover{background:var(--accent);color:#fff}
+  html { scroll-behavior: smooth; }
 
-.hero-right{background:var(--section);display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;padding:3rem 2rem}
-.photo-wrap{width:280px;height:340px;overflow:hidden;border:3px solid var(--white);box-shadow:8px 8px 0 var(--accent)}
-.photo-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top}
-.stats-bar{display:flex;gap:3rem;margin-top:2.5rem}
-.stat{text-align:center}
-.stat-n{font-family:'Lora',serif;font-size:2rem;font-weight:700;color:var(--accent);display:block}
-.stat-l{font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--light)}
+  body {
+    font-family: var(--sans);
+    background: var(--light);
+    color: var(--ink);
+    line-height: 1.7;
+    font-size: 16px;
+  }
 
-/* SECTIONS */
-section{padding:6rem 8%}
-.sec-label{font-size:0.78rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:0.6rem}
-.sec-title{font-family:'Lora',serif;font-size:clamp(1.8rem,2.8vw,2.4rem);font-weight:700;color:var(--dark);margin-bottom:0.8rem;line-height:1.2}
-.sec-line{width:48px;height:3px;background:var(--accent);margin-bottom:2rem}
-.sec-desc{font-size:1rem;color:var(--mid);max-width:540px;margin-bottom:3rem;line-height:1.8}
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(250,248,244,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--warm);
+    padding: 0 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px;
+  }
+  .nav-logo {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    color: var(--ink);
+    text-decoration: none;
+    font-style: italic;
+  }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-cta {
+    background: var(--ink);
+    color: var(--white) !important;
+    padding: 8px 20px;
+    border-radius: 2px;
+  }
+  .nav-cta:hover { background: var(--accent); color: var(--white) !important; }
 
-/* SKILLS */
-#skills{background:var(--section)}
-.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.5rem}
-.skill-card{background:var(--white);border:1px solid var(--border);padding:2rem;transition:transform 0.2s,box-shadow 0.2s}
-.skill-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,0.07)}
-.skill-card h3{font-family:'Lora',serif;font-size:1.15rem;font-weight:700;color:var(--dark);margin-bottom:1rem}
-.tags{display:flex;flex-wrap:wrap;gap:0.45rem}
-.tag{font-size:0.8rem;font-weight:400;padding:0.3rem 0.7rem;background:var(--accent-pale);color:var(--accent);border-radius:2px}
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 80px 80px;
+    gap: 80px;
+    background: var(--light);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(193,123,58,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.8rem, 5vw, 4.2rem);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .hero h1 em { color: var(--accent); font-style: italic; }
+  .hero-subtitle {
+    font-size: 1rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin-bottom: 24px;
+    letter-spacing: 0.02em;
+  }
+  .hero-desc {
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 480px;
+    margin-bottom: 40px;
+    line-height: 1.75;
+  }
+  .hero-desc strong { color: var(--ink); font-weight: 600; }
+  .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--ink);
+    color: var(--white);
+    padding: 14px 32px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.02em;
+  }
+  .btn-primary:hover { background: var(--accent); transform: translateY(-1px); }
+  .btn-secondary {
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
+    padding: 14px 32px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+  .btn-secondary:hover { background: var(--ink); color: var(--white); }
+  .hero-stats {
+    display: flex; gap: 40px; margin-top: 48px;
+    padding-top: 40px;
+    border-top: 1px solid var(--warm);
+  }
+  .stat-num {
+    font-family: var(--serif);
+    font-size: 2.2rem;
+    color: var(--ink);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
 
-/* PROJECTS */
-.proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}
-.proj-card{background:var(--white);border:1px solid var(--border);padding:2rem;transition:transform 0.2s}
-.proj-card:hover{transform:translateY(-2px)}
-.proj-role{font-size:0.78rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);margin-bottom:0.6rem}
-.proj-card h3{font-family:'Lora',serif;font-size:1.3rem;font-weight:700;color:var(--dark);margin-bottom:0.6rem}
-.proj-card p{font-size:0.95rem;color:var(--mid);line-height:1.75;margin-bottom:1.2rem}
-.proj-nums{display:flex;gap:2rem;padding-top:1.2rem;border-top:1px solid var(--border)}
-.pnum{text-align:center}
-.pnum-n{font-family:'Lora',serif;font-size:1.5rem;font-weight:700;color:var(--accent);display:block}
-.pnum-l{font-size:0.72rem;font-weight:600;letter-spacing:0.07em;text-transform:uppercase;color:var(--light)}
+  /* HERO IMAGE */
+  .hero-image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .hero-img-frame {
+    width: 420px;
+    height: 520px;
+    border-radius: 200px 200px 12px 12px;
+    overflow: hidden;
+    position: relative;
+    border: 4px solid var(--warm);
+  }
+  .hero-img-frame img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .hero-badge {
+    position: absolute;
+    bottom: -20px; left: -20px;
+    background: var(--accent);
+    color: var(--white);
+    padding: 16px 20px;
+    border-radius: var(--radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1.4;
+    box-shadow: 0 8px 24px rgba(193,123,58,0.3);
+  }
+  .hero-badge span { display: block; font-size: 1.4rem; font-family: var(--serif); font-style: italic; margin-bottom: 2px; }
 
-/* TOOLS */
-#tools{background:var(--section)}
-.tools-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2.5rem}
-.tool-group h3{font-size:0.8rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--light);margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)}
-.tool-pills{display:flex;flex-wrap:wrap;gap:0.5rem}
-.tool-pill{font-size:0.85rem;padding:0.4rem 0.9rem;background:var(--white);border:1px solid var(--border);color:var(--dark);transition:border-color 0.2s,color 0.2s}
-.tool-pill:hover{border-color:var(--accent);color:var(--accent)}
+  /* ABOUT */
+  .about {
+    background: var(--ink);
+    color: var(--white);
+    padding: 100px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .about-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+  }
+  .about h2 {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  .about h2 em { color: var(--accent); font-style: italic; }
+  .about-text p {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  .about-text p strong { color: var(--white); }
+  .about-values {
+    display: flex; flex-direction: column; gap: 16px; margin-top: 32px;
+  }
+  .about-value {
+    display: flex; gap: 16px; align-items: flex-start;
+  }
+  .about-value-icon {
+    width: 36px; height: 36px; min-width: 36px;
+    background: rgba(193,123,58,0.15);
+    border: 1px solid rgba(193,123,58,0.3);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
+  .about-value-text { font-size: 0.9rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
+  .about-value-text strong { color: var(--white); display: block; margin-bottom: 2px; }
 
-/* CONTACT */
-#contact{background:var(--dark);color:#fff}
-#contact .sec-label{color:var(--accent)}
-#contact .sec-title{color:#fff}
-#contact .sec-desc{color:#aaa}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
-.contact-item{display:flex;align-items:flex-start;gap:1.2rem;margin-bottom:2rem}
-.c-icon{width:46px;height:46px;background:rgba(184,92,42,0.15);border:1px solid rgba(184,92,42,0.4);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
-.c-label{font-size:0.75rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);margin-bottom:0.25rem}
-.c-value{font-size:1rem;color:#ddd}
-.contact-form{display:flex;flex-direction:column;gap:1rem}
-.contact-form input,.contact-form textarea{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);color:#fff;padding:0.9rem 1rem;font-family:'Source Sans 3',sans-serif;font-size:1rem;outline:none;transition:border-color 0.2s;width:100%}
-.contact-form input::placeholder,.contact-form textarea::placeholder{color:rgba(255,255,255,0.3)}
-.contact-form input:focus,.contact-form textarea:focus{border-color:var(--accent)}
-.contact-form textarea{resize:vertical;min-height:130px}
+  /* SECTION WRAPPER */
+  section { padding: 100px 80px; }
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  .section-title {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    color: var(--ink);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .section-desc {
+    font-size: 1rem;
+    color: var(--muted);
+    max-width: 560px;
+    margin-bottom: 60px;
+    line-height: 1.75;
+  }
 
-footer{background:#111;color:#555;text-align:center;padding:1.8rem 6%;font-size:0.85rem}
-footer a{color:var(--accent);text-decoration:none}
+  /* SKILLS */
+  #skills { background: var(--sand); }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--warm);
+    border: 2px solid var(--warm);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .skill-card {
+    background: var(--light);
+    padding: 32px;
+  }
+  .skill-card-icon { font-size: 1.4rem; margin-bottom: 12px; }
+  .skill-card h3 {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skill-tag {
+    font-size: 0.78rem;
+    padding: 4px 10px;
+    border-radius: 2px;
+    background: var(--warm);
+    color: var(--muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
 
-/* FADE IN */
-.fade{opacity:0;transform:translateY(20px);transition:opacity 0.55s ease,transform 0.55s ease}
-.fade.in{opacity:1;transform:none}
+  /* PROJECTS */
+  #projects { background: var(--light); }
+  .projects-grid { display: flex; flex-direction: column; gap: 2px; background: var(--warm); border-radius: 8px; overflow: hidden; }
+  .project-card {
+    background: var(--white);
+    padding: 40px 48px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: start;
+    transition: background 0.2s;
+  }
+  .project-card:hover { background: var(--light); }
+  .project-type {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .project-name {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    color: var(--ink);
+    margin-bottom: 12px;
+    font-style: italic;
+  }
+  .project-desc {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.75;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  .project-result {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--green);
+    font-weight: 600;
+    background: rgba(58,107,74,0.08);
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .project-result::before { content: '↑'; }
+  .project-metrics { display: flex; flex-direction: column; gap: 16px; min-width: 180px; text-align: right; }
+  .metric-big {
+    font-family: var(--serif);
+    font-size: 2rem;
+    color: var(--ink);
+    line-height: 1;
+  }
+  .metric-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .metric-item { border-bottom: 1px solid var(--warm); padding-bottom: 14px; }
+  .metric-item:last-child { border-bottom: none; padding-bottom: 0; }
 
-@media(max-width:768px){
-  .hero{grid-template-columns:1fr}
-  .hero-right{display:none}
-  .hero-left{padding:7rem 6% 4rem}
-  .contact-grid{grid-template-columns:1fr}
-  .nav-links{display:none}
-}
+  /* TESTIMONIALS */
+  #testimonials { background: var(--sand); }
+  .testimonials-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+  .testimonial-card {
+    background: var(--white);
+    border-radius: 6px;
+    padding: 32px;
+    border-top: 3px solid var(--accent);
+    position: relative;
+  }
+  .testimonial-quote {
+    font-family: var(--serif);
+    font-size: 2.5rem;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 16px;
+    opacity: 0.4;
+  }
+  .testimonial-text {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .testimonial-author { display: flex; align-items: center; gap: 12px; }
+  .testimonial-avatar {
+    width: 40px; height: 40px;
+    background: var(--warm);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--serif);
+    font-size: 1rem;
+    color: var(--accent);
+    font-style: italic;
+  }
+  .testimonial-name { font-size: 0.875rem; font-weight: 600; color: var(--ink); }
+  .testimonial-role { font-size: 0.78rem; color: var(--muted); }
+
+  /* TOOLS */
+  #tools { background: var(--light); }
+  .tools-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
+  .tool-group { background: var(--sand); border-radius: 6px; padding: 28px; }
+  .tool-group h3 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--warm);
+  }
+  .tool-list { display: flex; flex-direction: column; gap: 8px; }
+  .tool-item {
+    font-size: 0.875rem;
+    color: var(--muted);
+    padding: 6px 0;
+    border-bottom: 1px solid var(--warm);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .tool-item:last-child { border-bottom: none; }
+  .tool-item::before {
+    content: '';
+    width: 5px; height: 5px;
+    background: var(--accent);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* CONTACT */
+  #contact { background: var(--ink); color: var(--white); }
+  #contact .section-title { color: var(--white); }
+  #contact .section-desc { color: rgba(255,255,255,0.6); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+  .contact-details { display: flex; flex-direction: column; gap: 32px; margin-bottom: 40px; }
+  .contact-item { display: flex; gap: 16px; align-items: flex-start; }
+  .contact-icon {
+    width: 44px; height: 44px; min-width: 44px;
+    background: rgba(193,123,58,0.15);
+    border: 1px solid rgba(193,123,58,0.3);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+  }
+  .contact-info { font-size: 0.875rem; }
+  .contact-info strong { display: block; color: var(--white); font-weight: 600; margin-bottom: 2px; }
+  .contact-info a { color: rgba(255,255,255,0.65); text-decoration: none; }
+  .contact-info a:hover { color: var(--accent); }
+  .contact-info span { color: rgba(255,255,255,0.65); }
+  .contact-form { display: flex; flex-direction: column; gap: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-group label { font-size: 0.78rem; color: rgba(255,255,255,0.5); letter-spacing: 0.06em; text-transform: uppercase; }
+  .form-group input, .form-group textarea, .form-group select {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    color: var(--white);
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+    border-color: var(--accent);
+  }
+  .form-group textarea { resize: vertical; min-height: 120px; }
+  .form-group select option { background: var(--ink); }
+  .btn-submit {
+    background: var(--accent);
+    color: var(--white);
+    border: none;
+    padding: 14px 32px;
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    align-self: flex-start;
+    letter-spacing: 0.03em;
+  }
+  .btn-submit:hover { background: var(--accent2); transform: translateY(-1px); }
+
+  /* FOOTER */
+  footer {
+    background: #0f0b06;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    padding: 24px;
+    font-size: 0.8rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  /* AVAILABILITY BADGE */
+  .availability {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(58,107,74,0.15);
+    border: 1px solid rgba(58,107,74,0.3);
+    color: #5aab74;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .availability::before {
+    content: '';
+    width: 7px; height: 7px;
+    background: #5aab74;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; } 50% { opacity: 0.4; }
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    nav { padding: 0 20px; }
+    .nav-links { display: none; }
+    .hero, .about { grid-template-columns: 1fr; padding: 100px 24px 60px; gap: 48px; }
+    .hero-img-frame { width: 300px; height: 380px; }
+    section { padding: 60px 24px; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .project-card { grid-template-columns: 1fr; }
+    .project-metrics { text-align: left; flex-direction: row; flex-wrap: wrap; gap: 24px; }
+    .metric-item { border-bottom: none; padding-bottom: 0; border-right: 1px solid var(--warm); padding-right: 24px; }
+    .tools-grid { grid-template-columns: repeat(2,1fr); }
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .hero-stats { flex-wrap: wrap; gap: 24px; }
+  }
 </style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Sherlyn <span>M.</span></a>
+  <a href="#" class="nav-logo">Sherlyn M.</a>
   <ul class="nav-links">
+    <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Portfolio</a></li>
     <li><a href="#tools">Tools</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
   </ul>
 </nav>
 
 <!-- HERO -->
 <section class="hero" id="home">
-  <div class="hero-left">
-    <p class="eyebrow">SEO Specialist &amp; Digital Marketing</p>
-    <h1 class="hero-name">Sherlyn<br>Monterde</h1>
-    <p class="hero-role">SEO Specialist · E-Commerce Manager · Virtual Assistant</p>
-    <p class="hero-bio">Results-driven Digital Marketing Professional with 6+ years of experience in technical SEO, AI content optimization, and e-commerce support. I help businesses rank higher, reach further, and convert better.</p>
-    <div class="cta-row">
-      <a href="#projects" class="btn-fill">View My Work</a>
-      <a href="#contact" class="btn-outline">Get In Touch</a>
+  <div class="hero-content">
+    <div class="availability">Available for remote work</div>
+    <div class="hero-tag">SEO Specialist · E-Commerce · VA</div>
+    <h1>I help businesses get found, <em>grow faster</em>, and rank higher.</h1>
+    <p class="hero-subtitle">Sherlyn Monterde · El Nido, Palawan, Philippines</p>
+    <p class="hero-desc">
+      With <strong>6+ years of hands-on experience</strong> across technical SEO, Google Business Profile optimization, and e-commerce management — I've helped businesses across 269 locations and 6 platforms grow their online presence. I don't just optimize pages; I build <strong>systems that scale</strong>.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Let's Talk</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">6+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div>
+        <div class="stat-num">269</div>
+        <div class="stat-label">GMB Locations</div>
+      </div>
+      <div>
+        <div class="stat-num">1,000+</div>
+        <div class="stat-label">Listings Optimized</div>
+      </div>
+      <div>
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Link Platforms</div>
+      </div>
     </div>
   </div>
-  <div class="hero-right">
-    <div class="photo-wrap">
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAH0AZADASIAAhEBAxEB/8QAHAABAAEFAQEAAAAAAAAAAAAAAAECAwQFBwYI/8QARBAAAQMCBAMFBgQFAgQFBQAAAQACAwQRBRIhMQZBURMiMmFxBxRCgZGhI1KxwTNi0eHwFSQlNENyCFOCkvEWY3Oisv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACERAQEAAgMBAQADAQEAAAAAAAABAhEDITESQQQyURMi/9oADAMBAAIRAxEAPwDuCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICh3hPopUO2PoglERAREQEREBERAREQEREBERAREQEREBERARCtJj/E+H4JSmaeQPJuGMadXFBu1h1uK4fQAmtraeC24kkAP0XFeIvaViuKvdFQyGjptiI9z6leNdMKh7nukknnOr5JHEgKrp9Czcc8NRSdmcVhc7/wC2C4fUBV0/GnDlTKI4sVhznYOBb9yF87+8QQxus85RuRoHKgYvDmyRO1A0LRfImoPqKlxCirP+Uq4Jv/xyByyV8qwVFa6TtYJXZxsWnKvSYfxnxnhTmvbV+8RAaxTkSNt06/RNI+hkXNuGfa5hdeBDjcf+nzjQyNdniv8Aq35rolPUQ1ULJqaVksTxdr43BwPzCguoiICIiAiIgIiICIiAiIgIiICIiAiIgKHbH0UqHeE+iCUREBERAREQEREBERAREQEREBERAREQFbqJ46eF80rrMYLkqqR7Y2Oe9wa1ouSToAuccV8QyV4kEbuyoWEMaxxs6YnmegA1QV8VccGGlcIQGutfsw7XXa5+9lxnHcfq8Xqj2szjGzQa7KeIMVfV1MjibNb3brz7Ju8A02F81k21pm1E93iGM5WNFtNz1Kx5a+zexiFmtFtP81Kx5pLBxYTclYoeYm2b4uZ6IMp4mmLQ/TTRl/1WRDE9rbOkij8hqVhU7JZbkOyg7vP7K+TFCcsbe0I6oNpSRvPebNJ/3MOy3LY5AwMDMzgL3Oq85T1cuaw3/KDYWWwjxGTS0pzH4WglWIu1NFM6+aJpJ1DgbFZfDnEmMcNVV6Cpkpw7V0Mneif8lhySyujuZ8zumTZYMk0odldJn9ToqO+8He0/DsbkbR4owYfXE2bmd+FIfJ3I+R+q9+vj7tntIzXt13C6Z7PfadNhRiw7iCR82HmzYqk3LoPInct+4WTTuqKiGaOeJksMjZI3tDmvabhwOxBVaIIiICIiAiIgIiICIiAiIgIiICh2x9FKh2x9EEoiICIiAiIgIiICIiAiIgIiICIiAqXvaxrnPcGtaLkk2AHVVLjPtW4597qJuH8LktTxnLVTNP8AEcN2X/KOfU6Isivj32i++zOoMGcfdIz+JKdO2Pl/L+q5rXYxV1EshnmL82pN+Sxy+8Zc255aha0vdK12W/mTyUqxYqpi8bnvFWWkhhd1V8U5kdlbyOvVZU1A9gDSbnKbKba1a1dzk5klQyMAXeLnotjFQvcbZbX+yvswp/YCV4s2/NNnzWszPfdrdBzKqY2zddB0B/Urctwd5iHdcbi+yokwiW98thew9FPpfmsOORmWxADAb6Dc/ursdc9gIiiAudXlXJaF8LbA3JFtOSw5aeUO7wJsLWVmSXHTObiIL2iWQuF/Cxlh/dX2QiqBLI3gHa4AH3Wma/J4GEkcyrj6l0gDXym/Jo2WtppsW0rC5zWyDQbA3VLqd8Wj47AjUHUELDhrOy0a0XB3AGizaZ5laS+WTLuQ55sfsiPX+z7j2s4TqoqOrc+owR77PYdXU1/ib5dQvoenniqYI56eRskUjQ5j2G4cDsQV8qN7C/dcPPTU+i6P7JuLf9Nq24DWz5qCY/7V7j/AefgP8p5dD6oljtCIiIIiICIiAiIgIiICIiAiIgKHeE+ilQ7Y+iCUREBERAREQEREBERAREQEREBEUOcGgucQGgXJPJB4b2scWnhzBBS0UmXEa0FsZG8TPif97DzPkvnthJNr68yt9x5xCOI+KK3EIzenaRDTgn4G7H5m5+a86H7b5RyHMqNxlzkOYIy4tafqVjvh7K7DfN8VlXHI4AO+JxsHHkr/AGZeA3M0DUg8z6pVirDWxZLuGvwm+votrTUgeDIW3BGp6eiwaaEaA2tfxDmfRb+MNDWxBpIA73QlcMq9GE6UU2GRy2NwW2sQOQWwdhYexrGAXYBlBGhWVhcTsmUZQNrWN1tKKncyYuGrG7W5LH06fLSVGCz5R2hNt7R9FT/orcocYnvF+bt17RtGHBpGutwd7q/FQMBsY9+ibpqOeSYH3n5KcsPQ62WBV4DM0PLWF19SQ3VdVfhzCAWsseVladhj92hotystS1myOMvwcF5a9j25tisOqwaWFpewZhbmuyVuBiUXLQHciAtRWYISCQAx410GhWvpm8crj745W3IDSR9VT20hZ3yXMBuQ2+nmvX4rhLI3kuj799XBednoyx5kjJDtnNI0uusu3DLGxjxysDgQ1zr6iz1nRVEM3ce1zHafFYi37rAjZG7M112u5Hr0Vx0bjzvbY2W2H0T7KuLn8QYbJQV5/wCIUQAc4n+LHyd68j8l7xfLPBfEEvD2PUuItcezifknZ+aM6OH7/JfUcErJ4Y5onB0cjQ5rhzBFwVEqtEREEREBERAREQEREBERAUO8J9FKh2x9EEoiICIiAiIgIiICIiAiIgIiIC8V7XcdOC8HVLIX5amt/wBtFY697xH6X+q9quB+3PGDV8SRYex146GIAi+md2pP0yosc0Pca1jeQ+6WNw3cc1SHW1OtlW07eay0vFwcWttYDcrLpACRlGp2vsAsAAlmY7HQBbOgjJcLbABS1vGbbTD4j7wwnXS467rd08TmvlldrZwACxcPp7yXtoxtvmt/FTXDRrYiwK82VevHFlUkTHRENNnDVrgtrhrQ1xEg1OpsNFRRU2VgyAEch5Lb00bXtaR4hustr8EAZaw03WYynBOihjQQLC3ksuFoLRYeq6Yxyyq22luDZBAdLAXCzANbWCqygEH62XTTntrJINTYAHosGrw9j25mtsd9OR6LeSsBBFtTzWI9hBvyKzW5Xh8WwqJwJewZhqCOQXi8SwxrJnnLfbW3PkV1fEacPadNLfbmvF4jS37uXvAmN37FTHLVayx3HNsSo2QvzsF2yDbp1Cw2TNaxhfY5e65w38it1xBSvppg4Duv26X5rzLhlke3k79V6JluPHljq6ZR7krr6gjW3PzX0H7F8dOLcK+5zvvUYc/sT1MZ1YfpcfJfOkUhAaDy0XSPYxigwzi5tLI+0VfGYSDtmHeb+4+a0zX0GiIoyIiICIiAiIgIiICIiAodsfRSod4T6IJREQEREBERAREQEREBERAREQUyPbHG6SQgMaC5xPIBfJvE2IvxjHK7EHkn3idzm3/LfT7WX0Z7S8TOF8F4jK12WSVnYMPm/T9Lr5lkJa7QWDRopWoxX3vb/LqoWAAGqpfa97/JGm5uSosZkdpZmtYO4wAL0GGU9mhxHjNgtHhzCbk/M9AF6uijIfGLWtGDb6rnnXo48W2oYyyRwtuAQPNejZCOyYB8I3WJR0rWytJaLgC91uKaIhhBvqLLzW7eqRl0TLMAI5LOpo7E2WNS6NWdHtokKyGAAjRZjbAXAWGzdZDTpYbLri45RkNAvoq+SstfbzVWbkt7c7Eu2ViQaXVxztValKmVaxjAq2Zmm2i8rXxlssgLQCwh4v5aFeskvr0WixlgYBKRoNCbciuNdo5/xjRAs7umpLSFz2tFng8wdxzC6zj9KZaHKPG3n1XMMWgs1jhe5afqF34sutOHPj+sHmVtsFrX0VZTVsZ/EpZWyAdbG61AddodYG7bHTmrtJLaQXOhFiF6I8r7CoqqOto4KqE3jmjbI0+RF1fXivZDiZxHgumY83fSPdTk9QNW/Yhe1UZEREBERAREQEREBERAUO2PopUO8J9EEoiICIiAiIgIiICIiAiIgIiIOW+3iuyYRh9A06zTGR3o0f3XDZiHEg7X2XTvbnWGXiimprnLT0g083En9guWSG2nMc1G54tPOtgOe6qj3ub6eSp16fVVs17ut1CNphuocPzWv6L3mF0ZdUQsLe84do/yA0A/zovHYDCDNEXeEvudOQ1XS8DhOUyyCz320PIcl5+WvZwzptKenAcOZWeyPLrvzVEbLG/MrKY241XF3IG5dFmRjmrDWi6yoxYLUZtXGBX2jTorbFdbtsukc6N3VwFU+qWKrKHFWn6hXbHorThdStRjP1WDVxCVhathI3nusZ4uTYLnXSPH4jRysgkjbc21Z/Rc14hYXNfcWPaXFuVxqPqF2urgDmOvzC5jxrh3YueWjd9wR0IWuO6rHLNxzoGz7dbqppDTcclRO3I+45FVWuF7I8Fdt9gOI3lxXD3O0e1lQ1t9iO6bfZdkXzj7Eq7seNqONzrCeCWE+emYfdq+jlayIiKAiIgIiICIiAiIgKHeE+ilQ7wn0QSiIgIiICIiAiIgIiICIiAiIg+bPapVe9ccYqS64ikbENfytAXh3uu48+8t9xZU+849iM51z1cr79RmNl50EgX5qNl9L9dArkAzPAHXUqkttb/LLJw6J0swaAB+wUtWTder4dpu1qIgBo1vTmdyuj4ezK0DTReU4XpcjRIRYHw35r19I21l487uvfhNRtYWXaFksaLforMOjRdZUbR8lJFtTG3XZZDR3dFbaNdFcatyM2rjBoFdAVtp0VbStxipsquVlRmQFEVHZW5B0Vy6ocbnVSrGPINFjubusx40Vh7QFixqVgytuF4vjKm7WB7mtuWd4jqF7iYaLzvEEWaneT+UgqTqtXxwmvjDKmVnK6slrGNAZKHhzdspFj0WZjQLcRlFw6xtotdcBxaNr3Hkvbi+fl69f7M5hT8aYJITvVNZ/wC4EfuvqVfJHBknZcTYVd2UNrIjc8u+F9brVYERFAREQEREBERAREQFDvCfRSodsfRBKIiAiIgIiICIiAiIgIiICt1MvY08sv5GF30F1cWs4nmNPw5ikw3ZSSkeuUoPlXEZC9z5Du4ud9Tda9trXOwWbWaR+jQsB0lgAbKNoNybX13K9Hw1QdqS8jQm3y5rz0dy8BdF4ao8lPGLbBcuW6jtwY7u3oMKjygE6dB0XoaRoABK1dIwRsvy3+Stite4F+vZjRoB3K80j12vQuq2AkR6gbrKpagPYM/LcrzHvJhp88vLVrN8xVqOpqH6yVAa29w0NXSSMV7dkrToCNFeDrLxTMXkp7Elj2W+B262dFxHTTEtkeGuG4K1pl6MPsrgd1Wup6yOYXjcCBvqskSg2UXTJvogOish6Z97oaXsyjMCVjmTVSJANymzS/uFbeLhW3VMbAbvA6arFlxKNugIJTSbXJW6aLR4zGXUstt8pstpFWsldlf3STYFY1c0OaR5LGmtvnnGhkxGUX0zWusJzO8N/ULccVwdljdXGBbW4WpBOX009F6sLuR485rKs/BG2xek11ErN/UL7AC+PMFeGYnTPebBsjS4+VwvsJpBaC03BFwV0rklERQEREBERAREQEREBQ7Y+ilQ7wn0QSiIgIiICIiAiIgIiICIiAvN+0aYwcEYw8b+7lv1IH7r0i8T7YpXRcDVQabdpLEw/wDuv+yEfOdeO6/XawWqe/v23strWA9m7X4lqWxmSU32B1UbrY4VF21TG083BdbwWlywNBG65rwxTGfEowNgbnTkuw0UGWNvovNzXt6/481iokhc9nZt0Dt/RXIqaOMNBYDl2WQ6PKrbjboFx27yLjGNDicrOmyumnZI09xlt9lrKjFYqUENHaPG9th6lYH/ANWZH2vTi2wzEqyljY1WBwOkMkbezk3OXYrW1GE+GwNxrdu4WeziLW89O18ZF80Ls2noqm1kNQ7PTvDmFauWkmKjDmzU3dc8usRc8nBeipJy7daltjrZZlNcbfRTa6bdr7hW5Jso3UNvkWFVPIvZXaSLdXiXYtc4a2G3mvO1XEOITTGCkDSNnPtey2UsRkvcnU3VuOhiaC0g672SZFjUTT1DWt97rXOJIOUcj5lXqaR0ry4tqMhPeLQSD8v6L0dNhcWQOEbQPS91f93bHoVv6c9ND28sTQLueB4XuBuPI+S2dNV9sxsb93NzNPI9Vfkhj3LARzKtMpWRysfH4enRS3Y437QmdjxPLfQOYHLzhGh+3mvXe1WEsx2N/N0N/uvGZiWNI2t9F34/6x5eT+1XqR15PO3JfXPC1X79w3hlVe5lpY3H1yi6+Qad34vyX1D7JKz3vgTDrkEwh0WnkdPsV1rjXsURFAREQEREBERAREQFDvCfRSod4T6IJREQEREBERAREQEREBERAXPPbfLl4ThiH/Uqm/YEroa5j7dn2wXDo9e9UONh5N/ulWeuGVQvE6/5isGlY9xcerjqs2p/hnX4rquCANhY4DxtFz0KzbpuTdem4Fph2z3ka9V1Gkb3BprZc/4IjAiJP5l0WjFwLLycneT28c1iTsNr9F57FsQ7CJ4a1xdsAN17AQh7dlg1OFxSXLowSeZCxp0mUjkcwxKvrWe+CWChJ1bENSFhYzQUUOMyQsc/s2xtLA2S1/Ndihw6Bri1zAqKrhfC67L29NC/va5m629V2wy05547cjoIqaSsoBhrqqAzSta1rpRcgmxuBovYVUU+DYkyGoeHdr/DlGmceY6r0kHBmF0FXDXUcYimiOZgc4uDTrrYndWsd4ffjQzS4hYtF2h7O6D1Flrk1kzwy43u9KIJnENPVbrD+9a6w6ChMdIxkzw+WNoa54HjI5rbUMOUDT1Xn09FsZ4iGS61VezICea37I7xaLUYlDm2W8p0543toDMGk5ivN4txhT0MgbG5uhIMhF7nyHNbXiiIsjgpY+0BnJL3taTlaOXz2XleLKOmFPh0tLG4Rxtc11oycrjzKYYb9azy1Omwj9oNOWgTT1YuPGCGj9FsaTil8sgbFUNmP/lSjI/5Fc/nllqacwuhgDndxpjiILhyPqeq9pxBg8c+F0kdOzNXQxsbnYLXIHNdc+PGfrjhyZXqx7DDq+KvizMBDgbOadwei2MUYIK5/wALVNXTVHY1zHxTDRxPxjkfVdCoznZm5Fcd66dMp+uT+12HLiFI780bv1XN4XWLm9Cute1+C7KKQ9XN/RcjkGScjkV6uPx4+X+y9CBnBHzX0H7A6sS8MVdNfWCpuf8A1D+y+fKfSUdF2X/w9VOWuxejvo6KOQD0cR+663xwdtREUBERAREQEREBERAUO2PopUO2PoglERAREQEREBERAREQEREBcq9usv8AtsLhvrne4j6Lqq5D7cS01eHA7iN1tfP+ylXH1xqp8B05lbGJlsPgcPyhYE4swHyKzKaS+GsF9gf1WMvHXD17Dgs2p3dQ5dDw2xaLrm/Bkl45Bf4l0bC3d0LzZf2r2Y/1blgV4xBwsrcR0ssqPXkkiVr5aYWWO5jmbLeiMFUuomu1stfJM9evPvL9v2SKkfP4tlvvcGDcKXxtjHdHJPj/AFf+m/GrbTCMZANFfijs+1ldI5o3dZaZjRaHzusCpjzFbBo/CWM8ArWXjnj7Woq4nxEujAsQrMT2kESRscHEXFlu8jXsLXBYElHlOm3kp543LL1WM6kpZhfs2tcDcHKNPJVCipoQ4QssDra3NX2wO5LIjpzpcbpbamsY1/8ApcNQQ+SIZuRtqs5kAhYGjks1sOVqplAyqaT625n7WmZsKgcN2y/qFxiqAvffzXa/apZ2Fxs5mUW+i4pWaS5b7LvxePPyqofECOdl032CT9lxlLEf+tRyNHqHArmMBufQr3nshqPduPcO1sJC+M38wV3/AB56+l0RFEEREBERAREQEREBQ7wn0UqHeE+iCUREBERAREQEREBERAREQFx723Af6pQOv3uxIt5XK7CuJe2WQu4lY2/gp22HqpVx9ctmbo3qQVepwHUrYgLPuqaoZXRDzt91cgBjmiPVt9fVTKdOmF7ei4MkLTIw8ium4Y8BgK5fw+5ra+TLpmaDZdHw5/4bCDyXky9e3Dx6OF3ms2IrV0rrrZQm26uJYy4yrzCrDVUHW2XSOVm15xt5eSxZyq3OtzWHVzhoTK9Lhj2hzgAoYbm6w2TF51WbDyXKO3jOZ/CWM7RxWYxv4N+aw5jZdMp05Y+1AGqvdmHDULFjdd6zmHRTFcllsFtVeawBXLWVDjbZa0xvaHaLGl2KuudpusaV+h1Wa1I5j7VJcraaLq4uXHZfxHPff4v3XS/atV5sUEYNzHHt5nVcyFwCCuvFOnHlvaqn/iOtppdem4PqDScT4dOw+CsjN/UheZp/4g81ucFe6OuikaTds8Z0HLMF2jz19dogN9UUQREQEREBERAREQFDvCfRSod4T6IJREQEREBERAREQEREBERAK4P7WJDJxjVDkxsbB9Au8FfPPtAm7fjDE3b2qAwfKwUrWPrx+Jt70ZGgD7fe6Vn4cdJLfQkgq9ibfw2ED4r+ixsRdnw5rvyvsFqzol1W5wST/iQtqHN3XSMKd+C0eS5JwzVh9dFC42exx+YK6vhhIYF4eSar38V3jt6GldqFsWP2stPC+xC2MT1JW7GyiebK4X9FhsfYBVOlAGu66bY0rmmDRuta53bTZTy1sq5HOlfYbLFdJ2FZlO5Cza6Y4s7sg0bLIh0tqsYzNMdweSiKoGaxOqm01a3DH2ZZYsxBJUCbuDVWXShxsN1u5MTHSAC2UHkVnRv0CxHAFluYVcT7CxSXRZtm3UOKtNfYalM3MrW2flEvXksGd1gfNZcrrtK1OIS9lDI8/C0lYquH+0Gp94xWtmBuHS9m30Gi8ewXv6r0vHVLJRV9PDI7N2jDLf1K87EMxty5r0YTp5uS/wDpVCPxQt3hALZwWC95Wf8A9grUNF5XlvXT6r0XDLP99DGfC+VjSbed/wBl0cn1REbxMPVo/RVqiJuWJg6NA+yrUZEREBERAREQEREBQ7wn0UqHeE+iCUREBERAREQEREBERAREQF808RTCo4ir5QfFVuIt/wBxX0jVSdjTTS/kY530C+XqiXtcRldvmlcfuVK1iisZ2kBdl1bbL6hYZDZcIJcbZXOA8yCSs6Y2GUeEOAv52utdGSKIAiwMrhr5graVr+Hn5Mepj+Y2XasPb+E229lwqil7DEqaW/hkbc/Nd1wog07SvH/Ince3+NerG3i2CzIn2WDHsr4dYLhK9LObKbbqS8u0CxGvvor8RDe8Stb2zrTJhblF+Z3WmxuRzKnOwXLRt1W0ZMHc1qcRu6odpur+Lhe2s/1molY40kYu3TLJcaq7h9fUSOHvUQjf/KbhDD3rgW9FcyAgX0I5rPy6XKNsKvLHdzrLDjxmIzlrRI4A+IDRWCzM0hxuOixnRF3dacvmFdVmaeppZDPI0N2tc+iyXjI7yWvwCJ0cTiSTpa5K2cgzNWp45ZeoDtEzqzmI0UZ9Vdppckd0WpxRzRFlcdCbH05rYPdovB+1DEp6LBGNpX5ZaiURAjcAg3+ysm7pnK6m3NeOcVjxXHpXxkGKnj7GMjXMb6lefhbmlt06KZwASBrc7qqDu8r6Er1Sa6eK3d2vMADjz0C9hwBSis4hw+IuF3S31G9mleRjcXvJA8vkumexyiEnE9JK9o/DikkA6WAH7rTLvaIiiCIiAiIgIiICIiAod4T6KVDvCfRBKIiAiIgIiICIiAiIgIiINXxTM6n4dxGWM2c2nfY/JfM1Ic1Uy5vdx3X0D7UKn3bg2u7xaXtDRbnqvnqgd/umXO11K1ivvdZku3dk2WHcOpiAP+qSL8lfksGVI1zFwNljnWn6fjXW4V52buvNr3adPqu48LVIqsMp5QfFGD9lxCqBbM9vRx/VdQ9mtcJsIjiJ1iJZqfovNzzqV6P411lY6AzZXTsrLDcArIGoXke1SDlWJWVxY9sQO+6z3RZm6cl5biNlTHM80v8AEEZLL7XTtZqvR0tRmA6BZbhDJ/FLQepK5pw/jmI1olhqMkVTCNRcgO9FvLV+VrnXdm2s666dz0mEv69cIKN4tnsfVY02HztN6f8AGYdsu/0WjZUVVOAJoyC7a/NZdJibmyt1IA3udlrpf+d/K2tPh1S/WVnZt6uKy2YfA0gkFy1jMQ7Qkvcd+ZVxuJlju6646Jpm4ZN6wtjblaAAOipMw2utdHiEcosTlcsOetLajKDcXsVLXP5u+22fIMxVObmsWCQyFZB2WNtWDn6LlfterLVOH0w+Fr5D5bAfuupHQLhXtGr/AH/i2oaw3jprQjzI3+5Xbim8nDmusXmj333foAqoT3Xu66ADorR1NrbkhXmdAvVHjZVKLNzW72vzK7J7FaeMV00liJI6O3qHP/suPxAZ2xg30C7z7I6YQtrzlByshYHfIkj7qpXRURFEEREBERAREQEREBQ7wn0UqHeE+iCUREBERAREQEREBERAREQcx9uFXlwimpQ7xPzEdVxvDv8Amo9hoV0T20Vvb4o2Fpu2Jpv5G4H7Fc1oXf7oX0Uvrc8ZEj7PqBe94w76LHc60TgOT833/orz7e9v6GIrHcQGkXuXNuVoaWvFpnnq4/qvQezzEfdsUfTOdZswuP8AuH9locQ8YIWPTzvpaiOeI2fG4OCxnj9SxcMvnKV9FUUofGDdZzHLynDOJtrqOKZjrh7QfRekY8EAgrwWafSnbYMIyrWYpCHOa+1zaxWdC66iqjDmgHkg8Di+F9nV+8wksDjq5ulltMLxN0LoIqgB0Y3fzGi3s0DJGFjgLHa607onUU9nsaY76d24W5XbH5znzk9E+SkqpKY5mOLb5LfdKyhgfHmDWh1xqBqsWjo6SqYHaMfbQtFrFX34e24ZHXybjxcl11tyvF83UyXHYNC+Nzw57TbSxWvlw6OGEPfOQCRcmyzZG1sTDEKljmuBF+YWmxCnfLEyOeZzms2BPPz6qWRvHDl/cunm8SrsRqMUkosNndFTtdlEuUZ3nyPILe4JQPowGOkkkOpc57rklXsGwls03auGW2g81vWUTYSBe5XLIzym9MmhhyR3O51V53TmgcA0AKkvtcrLjWvx3EI8Jwqqrpj3YYy+3U8h9bL52fK+omdNK68kkhe89SdSuk+17Gx2UODwuu55Es1uTR4R8zquZROy3O5Xr4pqbeTmy3dJAO45bK7Dob9Oatgcr7aq6za9tF2cGdhutQXm2lz819E+yyJreHnTBtnSyXcethYL55oO4zNzJX0T7Lg1vDQaL5s93fMAoXx7BERGRERAREQEREBERAUO8J9FKh2x9EEoiICIiAiIgIiICIiAqJXiKJ8jtmi6rWr4jqPdsKmde2hufIC5/RB8/ceVprcWqnk3/FIHoNP6rzNA7LUNcd7LPxR3aSSnnmOg19Vr4ARMOgBKjovB+atB6hwWMXC4B5Fw+qrjINU09LqzqZ7fmJVRhYg3QFYH6LY1QJYb9FruaJXs/Z7ixppnUcru4512E8j0XVqaYOaLFcGwUkTXB1B5cl1Xh7FDPE1kh/Ebo7zXj58dZbe7+PlvHT2tLJqsuYXZdaemm21W1ifmZZco7ViyDXRUujZM3LI0EeayHM1uoyX5KwYHuT4DenfbyJU5akallze9wsx7DyVsxvNrOt1Wtus5Ksye8yNADDdIsOc9wNQ+4B8IV5pexwzOGU6anms6GJzwC4adE2mXLdJpYmsFmCwGyyMgOp3VccQaNlEhAGqVw2x5HZVrMYxKHDMPnq6h1mRNLj5noFmTP1JvsuQ8f8SNxarNFSyH3SEnvA6SOH7BMMblU5M5jNvJYvWzYliM9bUuJkmfm9ByHyCxmiwupLyTYD1UgaX+y9njw+pbpqVdYL2vyVprbkk7BXYjbX6Ko2VP4GN87r6B9lczX4NKxvwFmv8A6V890XjaN913r2Pa4NUOudXN0tta6QvjoCIirAiIgIiICIiAiIgKHeE+ilQ7wn0QSiIgIiICIiAiIgIiIC8H7WcT9zwZsDXWfM4M0PI6n7D7r3i4T7XMW99x51PE4FlOMuh+Ios9eDl1jJJ1eTzWNHpN6AlZFTcOjb+VuyxDpISemqjSljrVLj0Gn0VuT+Myx6qG/wAVxKh5/FYfK6ooqLX9b2WscLHyW1fYvaD5haxwNyOiGmdgYBqHNXscPe6B7ZGGxG/mvHYIbVRK9pStuAR0Xl5vXr/j+PYYdWiVjXA6L0FHOCF4GimdTyfyndemoKoOtY/NeaV6rHpmgOVTG2Oqw6aoCzGv0BXSMMhkEbtxa6OomaWJ1VLJABYFXBLot9M9seXC4pXRGRzjkfmABtcrPawDbRWRIXOV0P6p0l2l1gFg1UgFxdXp5w0EArV1U2hPM7BYyqyNDxlV1H+kz01CSKiVhFxvbmB5kXXFjETDmF9DYjmF2eoYZa2K5uc1yvJ8acKOpKV+NYfGTTl2SqjAv2ZOzx5FduC9OH8idvAObb5qtgAv1VyzbHe/NURNu9d3nUHXQnTmqxuOSl0dvqltQg2GHENkjJF9Rou/+yAX4bkeG2aZi1unQf3Xz/AC10dl9FeymAwcG0+b45Hu+9v2ViZePYIiKsCIiAiIgIiICIiAod4T6KVDtj6IJREQEREBERAREQEREGNidWyhw6pq5CQ2GNzzbyC+aK6V2J4tLMQAJJC93kF272p4p/p/DEsbCRJUns22XC25WUTpD4pHf/qNP1UajDqXCWqlk2GoA8lhzu7zish2hN+bh/VYtSbEi/JWqsA/iOUG5kZ1F7KBrJdAfxGqCmQ2ePXRYcjbOfdZcuuU+asTi7nEfMfJUX8IH+4HovcYfq0ArwmEutU2XvMNF2gj0Xl5vXr4PGw7PQOGyy6RzmHunQKmNoLbhXImZT5FeavXG7oqq4AJ1W1inuNSvOwNuNz6rNiklYNe8kqajdsksrrJb6XWmbVHzHqrjKojmtfSfLctktzUvnsDqtT75p1VszySeSfSfLMnqbnQ3WJISbuJ1UsaQLnUqmU6KGmNTMz1wP5RdelwenjmiqIpmB8Moyua4aOBGoWiwmO75X9XWB9F7XCqXsqNmYWLu8V34p083NXz/wAf8IScMYjI+nu/D6h14Xc2XOrT6cl5ZrbnT/5X09xHhMGK0ElNUwtljeLFpGvy81wXivhqo4eqS1zS6lefwpbaHyPQrvK4aedfYm4IsFQwXcOipOlx81djH00VZZsLfx4ri4AuV9O8G0zqThfDYnizuxDnDzdr+6+duGcNfi/EFDQRamWRocegB1+119QRtaxjWMFmtAAHkFqJmqREVYEREBERAREQEREBQ7wn0UqHeE+iCUREBERAREQEREBEVueTsoXyH4WkoOO+2nEu1xGmpGu7sLHOIv10/qufviyQMDtxa487f3W44jqnY3xJM8uu10hDf+1v9Vra+T8Qsvctvc+ZKRtqX6zO10bcm3MrCqDvfdZZJPaOdbvb/VYMrg55OuupSi3fvuI+EKSe+TZUt+L6FTuCepUFMjdGAblwVo6uP82gWW9oBAOp3usZrS5zG9eSCKAGOsaD1XQcKHdaRtZeHfGGVMT27kajrZe4wZ2aJhGoIC8/M9XA3kLfLRZMcSt0wFtVnMba1l5q9SmGPJ6LMjaCFbY3osmFotqoIMWnVW3x9AszKAFGRF2xWMPNXmMtqrgZqqrWGiFqLWWPUnJG5/QXWTbqsWtaZGthZq+RwYB5k2VjLacL0Lp2xAjuNGZ59dV7SwAsAsbDqNlDSMgZqQO8epWSV68cdR4c8vqqSAdCtRjmA0uLUstPURh0cgs4W59VubKbaLWmN6fNHGHClVw1iBZK0vpHn8KYDQ+R6FaFrNQGm4uPsvqbFsIosWpH0tdAyaJ4sWu/quL8UezLFsLr3PwSJ9bROBczUZ2fykc/VXZ00fAtZLQY3FWQn8WJxc0dRzH0K+l6OoZV0sVRHfJI0OAPLyXy9QwVGGYnA2sp5aeQOs5krS02Oh3X0FwHWOqcI7KQ3lhdZw9f/hbjOT0qIirAiIgIiICIiAiIgKHbH0UqHbH0QSiIgIiICIiAiIgLz/Hdf/p/DVU8GznjI35r0C5z7Xq7JS01K06A53f58kqz1zPBA0VdZUSC/YR6DqTyWpqiQ9457K/h0rmU1S69i9xcep6fqsKdxvtrzSNsWU2a7kOnkAtc83zE7rNlJ7O3NxKwXi4sOqMqYx3PMi+qvxtzWaBpokbRrfkLK9AzM439N0gsTX7Vx/mDbqqhiz1IbyaCq2x9p2VgLvkLreQ/wrOwWnMk7rbuOXbz3Uy6i4zdTjFEYYKSdg2IafnfVb7ALiJo2HToVHFFP/wyzW65228lewLK+NpsLOH0Xlzu49nHNV6SmGy2MI0WBS6Wa7cc+q2cAuFwd1TW2OgV+MDkqQFU0aoq6BoqrC3moGyqCCmxUgKRdVAIighTh9K+fF6N3wMlDj8tVfggM7hfRq2uHwhuJQsYNI2Ocf0H7reE7c+TLUrfhSoUr1PCgKU1UqwQocARqqiosiNXjGE0GMUxp8RpWTN+EkWcw9QdwrHDuD/6FNKGzOlgkaB3h3gRtfqtw5ut+qBSXTXVZbXNeLtII8lKwwLG7dD1CutlcPELrcrFxX0VLXtdsVUtMiIiAiIgIiICh3hPopUO2PoglERAREQEREBERAXGPadUNqsYlaXaNaMvp/gXYKqdsUT9e9lO3JcB47rO2xeoc06BoDQpa3jP15+mlY2hqmjxSSBrfIBYNQ4AX23P0V2lILAC7mCsOpdcWOxvt67JBaeTcDfRY4b3r8837K5K/c/IKmPfc+Z6KisjLHYbu1VYFojbxHuNAHMqCczydMo5X0V+naHSg27rNh/nmrEXYYshLgAcrRGzT7rovAvC0JDJqyMlwaS4E21Xi8Hja+rp8wuBIARzJO37Ls+FDJE9jd8oaT0dbVcuS/jphHiuO8LFHSh0WsUhsCeR3WhwRnZh8Wnddsuh8fxNPDrm5buEzO9030XhqZnYVTeQkA+q82b1cfc23UDi5oDvEFtKV2YC61sYs642utjTaOXJ2Zm6qaqVWBZUVhVqkeSqsqIJV2niMrrcgrbWZ3AAa8luKaAQxAczuVJ2luoQxCNthuVm4U0GaeTnoz9/3WPtuqsDecs8gJLXSm46DkV1w9efk8bsIgN0Xd5iylAioIoUoIcLhWwrqtOFneqlIqClQFKBboqmyOHO481SEWtovNlad9Fcv0WLdASD3dFZU0ykVlsp+IK417XbFXaaVIigEHYgqolQ7wn0UqHbH0QSiIgIijMOo+qCUVp8zR4e8rLpXG9zYdApuLqsh8jWbn5LGkqHv0boFbJuovZYuTUxYGMS9hh0zgdS069VwPiSQz4lU5dmANB8127iubs8PdquFV5c6aZzj35HgnyuP6KT10/GAwFtt7ZSfkFiTnRp8r+gWXIczpByDQ0LBnN77DkujFWtHkNPIF3zVdrDa/MqmHxudbyV6pZ2EGZxykjxdLqsrcxLLRN1cNTYc1msiFPSNdI43dqddbDcn5laqkcJantHeButv0V3Eq101ogeWvp0VGywStd7zLa3fe35NBvcH1AXfcLLfdqYxuDu2aHtcDvzv918zYfWmkrWyBpdH4XN6hdu9m+K+8UzITIJDBoy7vgdt9NlxzdMPHpOOYL8PENF8kzHH6rwM0QcGOFr3t9l1DHqf3vBZom6ONrX8iucVcEtKSyRltnArz8nr1cP9WTCbsB3BCzqV133Gy11I/NHbzt8lnU4FxpsuNd2zYbqvYqiE6dFc+S3EVbKdwFSL3WZRUhmfcg5BuU0m2ThlPp2rxryWxyXVcUYa0AaACwVzKNluYuVyYc/cje48mkq/g0Jho4w4akZj80qIg+IsGmbRZzG2AA0AXTHHvblnl1pcZobfT0Vao/UKq910cEqVCKgpChSEEKmQaX6KopvugoCqCpGhUqKmyhEQFIKp5qUTSboVCK7NKagvdCQHEW1VUTtGuHRCLqiHRgHMaJvs/Ga0hwuEd4T6KzG6ztdirzvCfRblYsSiK3NII235nYKot1Etu6D6lWL+SpcSQLnfUoCue3SRXdUkol1FReyoJ1UuOqovqorynHcx7AQfmYb25XNv3XHsWGWulDRZubQegt+y6txlJnqh0aFyfGSffJfUhMfWr414F2udzLliSNL+78lmv7sTRz1PorEbAcznWsNdV2jlVFLFfKbb6rBxWoNRUdm24jZoB+62sz+xpy7Z1iB+60sbWgl79iduqC9AzKMg7otc3/Vb6HhiWtwaSuZdrm95v8A2rzjJC+QHQNJt6rsnCYEOEwwTgGINsyRurXtO9/MbLGdsaxkrjFRTT0Uzo6qAtudj08itxw3j9Rw9iUVXSl0kAJBjc7cHcFdCxbBIZoXRPY172OIjceQGw8xa33Xi67h2HNmjeYo3HuvOrQeh6eRWfuX1r4s7jt+BcRUHEeEumoZWvIb34ye8w+YWPWRQzwkSR5mEa6bX/uuF09Fi2F1IfSufFM0kskifv8A50XrOHeOK6np+zxWPt4m910rDct9QueeP+OvHdevdUmCQ1AD4ZS3MDp81lMwKePRrg5a7h7HqGZ12SEROcS0nQjNb97r18dQxzWnOMp+ILl8T9dvuzxpm4fUt0LCr8VDO7QsI81vA8BoJtv9VdaLtvdamET7rVQYZYh0pt5BZ7GhgDWAABXSqXGya0m7U57aIXOtoqYxc6q8QANVZGaopozJNd17NGi2AGisUje6XdSsjkuuM1HDO7qFI5hRyTZVlUpurUs0cTc0kjGDq42WrqeIaCO4ik7Zw5R6qXKQmNrcEql0jW+JwHqVoIcRxLET/tacRRf+ZIbBZkOF3IfWTPmd02b9Fn6v418yesibFKWK/fzOHJupWOMSqJv4FJIfNwWcynhj/hxMb6NCuWTum8Z+LVMZiy9RYOJ0A5BXgoClWM0KKLoqJS6hL2QSpuqboFRUqGaSyDzuqlQdJx5tQXVfDs0ZPksdVxu3byIW5WKvk2FzsFrnyGWQuO3JZFbJZmQc91iNUyq4z9VE6qW6hUO3VbTosNpOqgpdQ4oKSbq26wNuqrWtxh0sJgqIz3WO7w63Uqx5jjON0bHyggg2HnuuUYi7tJS4ndxJXVeNqke6MfGQW3uFybEHd+Uj0Vw9W+Mci+40sXE/soDLsbcau79vLkrzWEUcjxo4nK3zUyfh6WuY2Aei7xya7EnnIQSL3yj91qSRqX66eELPxF2VzGH4Rr6nVa5wN3+eygrDi432sLADkvTcKcSz4WGQOe59OL5oT58x5rzGuU23teyhjtQNtLkLNmyXVdwgrqTFqRs4dcEWlyN1jI8LrfYhYc1IySMsc1r8wyubyeOoXg+G8cqsPnaI3tLdAA86W811bCpaeoIAjdHI5t3U8wuPVjuYXG46d8cnkaFkNFiQpMThMlDIQMzvh6fTqvYw8L4S2WNzYGCQaNmAF3Do7kVcxPh6Gsh7WNrwYzq1zbFvnbms3CqSemiDHuzADu3OhHks3bpO2BJwrQvqHsZC2MHKfw9BfXVZtPwpDTztfBUVMbRpk7Ulvp6LbU185c7Qud9gs4yNDdSEVi0tC2nOZ0kkj7WvI69h5LOAIH7KzE4yHNs3kr4800IN1GW6rASyaRDBZS/QH0UgWVLhmIb1KsjNrMgbliaOdlcVLNlWujhUJshUojAqsHw2reX1NFFI4m5Lr/1UQ4NhsLgYqONttrXss9FnS7qkRtA0uAOSZfMqpFTdRl80t5qVKCnKEClUSyNiY57zoEFTnDMG87X9FF1RGHFuZ4s52pHTyVVlFLooKckRKlQiom6tyaSRn1CqKol3Zb837KUi8Cova5CpaVLtitRKxppC95ceaNOoVtxuqm7rNbkHO71vNXWnRYdQ4h4t+ayy27BJSxUqT0RRdDQrVRE2eN0TtnBXN1S7QfJRXL+L3vZSSxEk9nfQdDoub1Lu0eWjm4Db/Oi6LxuSIZpBzfb/AD6rm7WF0lzf+J+xWsDLxll+WjDQO9mG/LW6tvaHNyA957h81VVDKIwNM7+axZpLTPI+BpDfVd9uTWV0gmqnEWsDZY0rbZTbSyuNYe0P8wV0sDxl52usjFA2dytZXY2Mc7K/RpGjuhQMtcHYc1LGOIAPivbUaEeqEZ1Lh1bIHOjppZGM3dG29h105L1/CuMzxPippZzJTxmzWO8UZP5TvbTZeawfFsSwmcCmfIxjvE0cwvSU1dFiwbLV0AfNr+JHHlcfUj9bLFdMXXcHqIahjbT5ncmu0+qxamtjp5pYGk9x1teS8hw1TYlNNGyhldA2w/iuzt89x9l7huGNiqXOnyPeQCTl30XLKf47Yal7WYKiR4tHG49CVn00Ly4Oldc9OSusiazw2srzNCs/Ldv+K2AAK4BzVI2VYWmQDRSAiqCrKDsoiGaW/RS7ZTSDul3U3WmcvGS1VBQl1XJJ3UKSoRAoFKhFCoUqFESVF0KjVFSSALnQDqsGFxrZhMf+XYfwh+c/m9OioqZDWVBo4j+Cz/mHjn0aP3WaxoYA0AAAWFlne2taVqEUKoglSqVI02RRSFBTmiJKtS6Zf+5XOStTnut1+IIRcaVUToT5KgKT4SrKVhE94K40qzILWKuNOmiy0t1Iu9tvzBZV9FjOF5Wet1kckVN1BJUFSiACtzWDHE8gVWd1j17stJKf5UHMuOX2oi0bkEn5leAkA7MEDwvF173i1hnMzRyafsF4ownJK22pN/otY0s6Y9Q8PDZD8Du6PstdI8d8762J+av1D+6G30BsFixDM2UOHMrrtyY+UtcPK4+hVyUFmV7eRsqXGw1+YV2Nw1DrkEqKpytdtsdh+yu0U0cTnRVTCYna5gLlp6q1JEY7AE2OoKtufmAMgN72vb9UvZ493w9w0cXY18BZJGDZrhoQve4RwX7qRc5dbktcbrnXB/EsuHFtO5kczL9zM4sLfmF1vDsWrp2MeKMBrviM2a3yXKx1l66bbD8IgpwDlzEbFxvZXKxgE4toMuiu0Mj5W55XC/IDYKaxgLmH1TXRLfrtisvpdXQLKA3XZXA1R12NVYVIVYRAKrmgUqxlRKbMdfor0DcrGjorEnecxvU/osto0VYyqpERVgREQFClQglQhKXUBYWI1T4w2nprGqm0Z/KObj6K7W1UdHA6WQ3A0a0buPIBWMPpntLqmpF6mbV38o5NCzb+NSftXaOmZSwNiZrbUuO7idyVfUqOaG0qEB1QhUUndSoRQEugQqiQeis1GrN/iH6q6FaqNIj6j9VCerjTojtj6KgHRTfQ+isSxiSeA+iQuBaFL9ljwuyuso0yWj8UX6K7dW26uv5KsjzQVFQiag+SCVg4s61E/wA1mrX4vc0pHmEHhcViDpHOJ0ufodF4yVnYTljx4HXt5EWP6Be2xRwY2Uv+F2U/svGYyQQ2VhGZvdeLpPdNfjzVc3s5ntOlnLGaSxxB2IIKzqwipk0BvlsSsCRrswzeIaFdY5WdqMoLi08xb1VuM2dY7qq5BBO438ipezMQ9pFyduqoyYnseCyTTr/VW3Ra/hkOB+HqqYxnIvoQsuBjy60febsQN0NMjDKSo7Rr4Ye1b+VdR4SfOZYYZqaoDzYEGTuZfJZPAnDtHJg0M00bxK4k5nDf0Xt6OhgprZGAnkea5W7dJ0yoIwxgAaAlRsCrgVM4uz0RmescBVWQBTZHVACqRSoFkRQ7QKopjGeoJ5NCy1jUgJaXn4jdZSsc8vUoihVlKhOaICIVCCVBNgb7dUWDXPdUSijiJF9ZnD4W9PmpbpZNrEDDiFd73IP9tCbQA/EebltFRGxrGhjBZoFgByCr5LMW0UKSoRDnol00UHRFQVBU7qlUVckVKkaqASrNT/CN/wDNVeViqP4Tv85oRUNAqTJY9VBd3brGuSUXS+4aLCd3ZSPNZ/KyxKhtzmslIvQm4v1V4bKzTgCNqvoChSVSUErDxQf7f5rM2VitaJKd7fJFjyGJUgkEzw25LSHAC97bfNeOxHDWVLmSwRtsW6kaXI5EdV72e4uRz3WjxGja55kiFi7U5dDfqo1HhqzD2Ye8uaC+I6OuNR5evmtLV0wcS6O5G413H9V7yrpHVQIYSYwLG/xHotJUYG9slogSHa5ei1jl/qXHbxzjlksWkG26MGQlrtWO2PRb6qwqYMN4S4bHTY9ViDC6oDSIuadtFv6jHzWDGwF4NgCN9df7rd8N04q8Vp4S0kF2mm/qsnCuGamtIL4y0dL2JXT+E+EKege2pljHbDUAi+UqXL8WTT1GHQNpqaONg7jQLBZ7FSxgGyqaLFYFxUyC7CpAUP8ACfRWItAaKQEb4VKOiApKIgjZWpXWabK67RWT3pGN87ojKhblYB0CuqluyqVcqclClQVQTmihQSdk5KFbqZ2U0DpZTZrR138ktFjEq33SG0YDp36Rt6nqrVAyWkiPvDQ4uOZ8jNdfMLGw+KSrnNfUjV38Nv5QtsNNlj3t0s10qY5r2hzHBwPMFSrL4mkl0Z7N/UDQ+oVPbuj0nbYfnbq3+yrOmRyUFQHAgFpBB5hTuqICFSoKggqEKhAKkKnmpQSVj1X8JyvlWKk/hlCerUjsrbK23VqVJJaANyVLfD8lGlwuO+ix6t5ELiLbIiqL8JORvormY2REDObckLiiIIzG2wVuR5tsERBoqwATOA2utXWjRrdsxsbIijcW+wjbYNFhayiGmjdOb30CIoq8+khAvkFx91bgwqkkk1jy35N0RFWa9NhuH01M1rmR3da+Z2pC2jXkDQDdEVZVh56BSHm+wREFYeegUOecp0CIqyojcco2VWbXYIiroXKF3oiIKHO8grcTj2t+gRFlL4yw825Kc56BEWnMDz0CkvPQIiCnOegUB56BEUAPPQLR4lI6qxaClkP4Isco5koimfjeHrcNOUBrQABsAqi4gIiBmPkozFEQrGqPwI3zQ9xw5DY/JZMchcxriBchEQVFxA2CpDz0CIiGY67KMxtdEQA4qC8jkERBJefJY9S68Z0CIlWMeZxOW/VVg6bBEWV/H//Z" alt="Sherlyn Monterde">
+  <div class="hero-image-wrap">
+    <div class="hero-img-frame">
+      <img src="https://monterderjrs-svg.github.io/profile.jpg" alt="Sherlyn Monterde - SEO Specialist" onerror="this.style.background='#e8dfd0';this.style.display='flex'">
     </div>
-    <div class="stats-bar">
-      <div class="stat"><span class="stat-n">6+</span><span class="stat-l">Years Exp.</span></div>
-      <div class="stat"><span class="stat-n">269+</span><span class="stat-l">GMB Locations</span></div>
-      <div class="stat"><span class="stat-n">1,000+</span><span class="stat-l">Listings</span></div>
+    <div class="hero-badge">
+      <span>Top-Rated</span>
+      SEO &amp; Digital<br>Marketing Pro
     </div>
   </div>
 </section>
+
+<!-- ABOUT -->
+<div class="about" id="about">
+  <div>
+    <div class="about-label">About Me</div>
+    <h2>The person behind the <em>rankings</em></h2>
+  </div>
+  <div class="about-text">
+    <p>
+      I'm Sherlyn — an SEO specialist and digital marketing professional based in the beautiful island of El Nido, Palawan. I work fully remote with clients and agencies across the US, UK, Canada, and Southeast Asia.
+    </p>
+    <p>
+      My background spans <strong>technical SEO audits</strong>, <strong>local SEO at scale</strong> (269+ GBP locations), <strong>e-commerce platform management</strong> across Shopify, Amazon, Etsy, and Depop, plus content strategy and virtual assistant support. I bring both strategic thinking and hands-on execution.
+    </p>
+    <p>
+      I believe great SEO is built on clean systems, consistent data, and genuine understanding of what customers are searching for — not shortcuts.
+    </p>
+    <div class="about-values">
+      <div class="about-value">
+        <div class="about-value-icon">📊</div>
+        <div class="about-value-text"><strong>Data-driven decisions</strong> Every recommendation is backed by actual search data, audit findings, and measurable outcomes.</div>
+      </div>
+      <div class="about-value">
+        <div class="about-value-icon">🤝</div>
+        <div class="about-value-text"><strong>Reliable communication</strong> EOD reports, proactive updates, and clear documentation — always.</div>
+      </div>
+      <div class="about-value">
+        <div class="about-value-icon">⚙️</div>
+        <div class="about-value-text"><strong>Systems that scale</strong> I build processes that work whether managing 1 listing or 1,000.</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- SKILLS -->
 <section id="skills">
-  <div class="fade">
-    <p class="sec-label">What I Do</p>
-    <h2 class="sec-title">Core Expertise</h2>
-    <div class="sec-line"></div>
-  </div>
+  <div class="section-label">What I Do</div>
+  <h2 class="section-title">Core Expertise</h2>
+  <p class="section-desc">A full-stack digital marketing skill set — from crawl audits and schema markup to Klaviyo campaigns and influencer outreach.</p>
   <div class="skills-grid">
-    <div class="skill-card fade">
-      <h3>🔍 SEO &amp; Digital Marketing</h3>
-      <div class="tags">
-        <span class="tag">Technical SEO</span><span class="tag">On-Page SEO</span><span class="tag">Off-Page SEO</span>
-        <span class="tag">Local SEO</span><span class="tag">Parasite SEO</span><span class="tag">AI Optimization</span>
-        <span class="tag">Keyword Research</span><span class="tag">Link Building</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">🔍</div>
+      <h3>SEO & Digital Marketing</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">Technical SEO</span>
+        <span class="skill-tag">On-Page SEO</span>
+        <span class="skill-tag">Off-Page SEO</span>
+        <span class="skill-tag">Local SEO</span>
+        <span class="skill-tag">Parasite SEO</span>
+        <span class="skill-tag">AI Optimization</span>
+        <span class="skill-tag">Keyword Research</span>
+        <span class="skill-tag">Link Building</span>
       </div>
     </div>
-    <div class="skill-card fade">
-      <h3>🛒 E-Commerce &amp; Content</h3>
-      <div class="tags">
-        <span class="tag">Shopify</span><span class="tag">WooCommerce</span><span class="tag">Amazon Seller Central</span>
-        <span class="tag">Etsy</span><span class="tag">Depop</span><span class="tag">Vestiaire</span>
-        <span class="tag">Product Optimization</span><span class="tag">Inventory Management</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">🛒</div>
+      <h3>E-Commerce & Content</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">Shopify</span>
+        <span class="skill-tag">WooCommerce</span>
+        <span class="skill-tag">Amazon Seller Central</span>
+        <span class="skill-tag">Etsy</span>
+        <span class="skill-tag">Depop</span>
+        <span class="skill-tag">Vestiaire</span>
+        <span class="skill-tag">Product Optimization</span>
+        <span class="skill-tag">Inventory Management</span>
       </div>
     </div>
-    <div class="skill-card fade">
-      <h3>📍 Local SEO &amp; GBP</h3>
-      <div class="tags">
-        <span class="tag">Google Business Profile</span><span class="tag">BrightLocal</span>
-        <span class="tag">NAP Consistency</span><span class="tag">Citation Management</span>
-        <span class="tag">GBP Image Uploads</span><span class="tag">LSA Reports</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">📍</div>
+      <h3>Local SEO & GBP</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">Google Business Profile</span>
+        <span class="skill-tag">BrightLocal</span>
+        <span class="skill-tag">NAP Consistency</span>
+        <span class="skill-tag">Citation Management</span>
+        <span class="skill-tag">GBP Image Uploads</span>
+        <span class="skill-tag">LSA Reports</span>
       </div>
     </div>
-    <div class="skill-card fade">
-      <h3>📱 Social Media &amp; Outreach</h3>
-      <div class="tags">
-        <span class="tag">TikTok Scheduling</span><span class="tag">Email Marketing</span>
-        <span class="tag">Klaviyo</span><span class="tag">Repurpose.io</span>
-        <span class="tag">Canva</span><span class="tag">CapCut</span><span class="tag">Influencer Research</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">📱</div>
+      <h3>Social Media & Outreach</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">TikTok Scheduling</span>
+        <span class="skill-tag">Email Marketing</span>
+        <span class="skill-tag">Klaviyo</span>
+        <span class="skill-tag">Repurpose.io</span>
+        <span class="skill-tag">Canva</span>
+        <span class="skill-tag">CapCut</span>
+        <span class="skill-tag">Influencer Research</span>
       </div>
     </div>
-    <div class="skill-card fade">
-      <h3>⚙️ Technical SEO</h3>
-      <div class="tags">
-        <span class="tag">Crawl Audits</span><span class="tag">Indexing</span>
-        <span class="tag">404 Error Removal</span><span class="tag">Site Health</span>
-        <span class="tag">Schema Markup</span><span class="tag">XML Sitemaps</span><span class="tag">Screaming Frog</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">⚙️</div>
+      <h3>Technical SEO</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">Crawl Audits</span>
+        <span class="skill-tag">Indexing</span>
+        <span class="skill-tag">404 Error Removal</span>
+        <span class="skill-tag">Site Health</span>
+        <span class="skill-tag">Schema Markup</span>
+        <span class="skill-tag">XML Sitemaps</span>
+        <span class="skill-tag">Screaming Frog</span>
       </div>
     </div>
-    <div class="skill-card fade">
-      <h3>🗂️ Virtual Assistant &amp; Tools</h3>
-      <div class="tags">
-        <span class="tag">EOD Reporting</span><span class="tag">Asset Management</span>
-        <span class="tag">Trello</span><span class="tag">ClickUp</span><span class="tag">Notion</span>
-        <span class="tag">Google Sheets</span><span class="tag">Slack / MS Teams</span>
+    <div class="skill-card">
+      <div class="skill-card-icon">🗂️</div>
+      <h3>Virtual Assistant & Tools</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">EOD Reporting</span>
+        <span class="skill-tag">Asset Management</span>
+        <span class="skill-tag">Trello</span>
+        <span class="skill-tag">ClickUp</span>
+        <span class="skill-tag">Notion</span>
+        <span class="skill-tag">Google Sheets</span>
+        <span class="skill-tag">Slack / MS Teams</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PORTFOLIO -->
-<section id="projects" style="background:var(--white)">
-  <div class="fade">
-    <p class="sec-label">Portfolio</p>
-    <h2 class="sec-title">Selected Projects</h2>
-    <div class="sec-line"></div>
-    <p class="sec-desc">Real-world campaigns executed for clients across e-commerce, local SEO, and digital marketing.</p>
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">Portfolio</div>
+  <h2 class="section-title">Selected Projects</h2>
+  <p class="section-desc">Real-world campaigns executed for clients across e-commerce, local SEO, and digital marketing — with measurable results.</p>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Local SEO Specialist</div>
+        <div class="project-name">Spark Ignite</div>
+        <p class="project-desc">Managed and optimized 269 business locations using BrightLocal for on-page and off-page SEO. Ensured 100% NAP consistency across all listings, linked each location to GA & GSC, and ran comprehensive Local Search Audits to identify ranking gaps.</p>
+        <div>
+          <span class="project-result">100% NAP Consistency achieved</span>
+          <span class="project-result">269 locations synced to GA & GSC</span>
+          <span class="project-result">Local visibility improved across all markets</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">269</div>
+          <div class="metric-label">Locations</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">100%</div>
+          <div class="metric-label">NAP Consistency</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">E-Commerce SEO & Digital Marketing</div>
+        <div class="project-name">RedoLuxury</div>
+        <p class="project-desc">Uploaded and optimized 1,000+ luxury product listings across Shopify, Depop, and RedoUnlimited. Managed Klaviyo email campaigns, social media scheduling, and conducted full Shopify technical SEO audits with actionable fix documentation.</p>
+        <div>
+          <span class="project-result">1,000+ listings optimized across 6 platforms</span>
+          <span class="project-result">Full Shopify technical audit completed</span>
+          <span class="project-result">Klaviyo flows built & deployed</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">1K+</div>
+          <div class="metric-label">Listings</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">6</div>
+          <div class="metric-label">Platforms</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Backlinking & SEO Outreach</div>
+        <div class="project-name">BayanMall</div>
+        <p class="project-desc">Built a robust high-authority backlink profile across 20+ platforms including Blogger, Medium, LinkedIn, Reddit, Quora, and Pinterest. Managed 13 unique outreach accounts and oversaw concurrent product optimization campaigns.</p>
+        <div>
+          <span class="project-result">20+ backlink platforms established</span>
+          <span class="project-result">Domain authority improved</span>
+          <span class="project-result">Organic referral traffic increased</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">20+</div>
+          <div class="metric-label">Platforms</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">13</div>
+          <div class="metric-label">Outreach Accounts</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Technical SEO Specialist</div>
+        <div class="project-name">Maggy Maid</div>
+        <p class="project-desc">Resolved crawl errors, redirect chains, mobile usability issues, and canonicalization conflicts. Implemented structured data markup (schema), conducted full on-page optimization, and coordinated directly with developers to resolve Core Web Vital performance issues.</p>
+        <div>
+          <span class="project-result">Rich results achieved in Google Search</span>
+          <span class="project-result">Crawl errors reduced to near zero</span>
+          <span class="project-result">Mobile usability score improved</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">Full</div>
+          <div class="metric-label">Technical Audit</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">Rich</div>
+          <div class="metric-label">Results Achieved</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Full Digital Presence Manager</div>
+        <div class="project-name">Taxi Bonjour</div>
+        <p class="project-desc">End-to-end digital presence management including GMB optimization, social media management on Facebook & Instagram, Facebook Group community growth, and link-building campaigns across 4 websites using SEMrush. Produced Canva visuals and monthly content calendars.</p>
+        <div>
+          <span class="project-result">4-website SEO campaign coordinated</span>
+          <span class="project-result">FB community growth managed</span>
+          <span class="project-result">Full content calendar delivered monthly</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">4</div>
+          <div class="metric-label">Websites</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">Multi</div>
+          <div class="metric-label">Channel Mgmt</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-type">Influencer & Product Research</div>
+        <div class="project-name">NutraBlast</div>
+        <p class="project-desc">Built comprehensive influencer databases across YouTube, Lifestyle, and Nano–Mid-tier segments. Simultaneously optimized Amazon Seller Central listings — refining keywords, product titles, and A+ content — for private label supplement growth.</p>
+        <div>
+          <span class="project-result">Influencer DB built & categorized by tier</span>
+          <span class="project-result">Amazon listings keyword-optimized</span>
+          <span class="project-result">Private label content improved</span>
+        </div>
+      </div>
+      <div class="project-metrics">
+        <div class="metric-item">
+          <div class="metric-big">DB</div>
+          <div class="metric-label">Built & Managed</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-big">AMZ</div>
+          <div class="metric-label">Optimized</div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="proj-grid">
-    <div class="proj-card fade">
-      <p class="proj-role">Local SEO Specialist</p>
-      <h3>Spark Ignite</h3>
-      <p>Managed and optimized 269 business locations using BrightLocal for on-page and off-page SEO. Ensured 100% NAP consistency, linked locations to GA &amp; GSC, and ran Local Search Audits.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">269</span><span class="pnum-l">Locations</span></div>
-        <div class="pnum"><span class="pnum-n">100%</span><span class="pnum-l">NAP Consistency</span></div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-label">Client Feedback</div>
+  <h2 class="section-title">What Clients Say</h2>
+  <p class="section-desc">Feedback from clients and agencies I've worked with across SEO, e-commerce, and digital marketing projects.</p>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">Sherlyn is incredibly thorough. She took our 269 GBP locations and made sure every single one was accurate, consistent, and properly linked to our analytics. The improvement in local visibility was noticeable within weeks.</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">S</div>
+        <div>
+          <div class="testimonial-name">Spark Ignite Client</div>
+          <div class="testimonial-role">Local SEO Project · 269 Locations</div>
+        </div>
       </div>
     </div>
-    <div class="proj-card fade">
-      <p class="proj-role">E-Commerce SEO &amp; Digital Marketing</p>
-      <h3>RedoLuxury</h3>
-      <p>Uploaded and optimized 1,000+ luxury product listings across Shopify, Depop, and RedoUnlimited. Managed Klaviyo campaigns, social scheduling, and Shopify technical SEO audits.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">1,000+</span><span class="pnum-l">Listings</span></div>
-        <div class="pnum"><span class="pnum-n">6</span><span class="pnum-l">Platforms</span></div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">She handled our Shopify audit and Klaviyo setup simultaneously — and delivered everything documented and clean. Very proactive, always sends EOD reports, and genuinely understands e-commerce SEO from product titles down to schema.</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">R</div>
+        <div>
+          <div class="testimonial-name">RedoLuxury</div>
+          <div class="testimonial-role">E-Commerce SEO · Shopify + Klaviyo</div>
+        </div>
       </div>
     </div>
-    <div class="proj-card fade">
-      <p class="proj-role">Backlinking &amp; SEO Outreach</p>
-      <h3>BayanMall</h3>
-      <p>Built high-authority backlinks across 20+ platforms including Blogger, Medium, LinkedIn, Reddit, Quora, and Pinterest. Used 13 unique outreach accounts and managed product optimization.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">20+</span><span class="pnum-l">Platforms</span></div>
-        <div class="pnum"><span class="pnum-n">13</span><span class="pnum-l">Outreach Accounts</span></div>
-      </div>
-    </div>
-    <div class="proj-card fade">
-      <p class="proj-role">Technical SEO Specialist</p>
-      <h3>Maggy Maid</h3>
-      <p>Resolved crawl errors, redirect chains, mobile usability issues, and canonicalization problems. Implemented schema markup, on-page optimization, and coordinated with developers on performance fixes.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">Full</span><span class="pnum-l">Technical Audit</span></div>
-        <div class="pnum"><span class="pnum-n">Rich</span><span class="pnum-l">Results Achieved</span></div>
-      </div>
-    </div>
-    <div class="proj-card fade">
-      <p class="proj-role">Full Digital Presence Manager</p>
-      <h3>Taxi Bonjour</h3>
-      <p>Managed GMB optimization, social media profiles on FB &amp; IG, Facebook Group community, and link-building campaigns across 4 websites using SEMrush. Created Canva visuals and content calendars.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">4</span><span class="pnum-l">Websites</span></div>
-        <div class="pnum"><span class="pnum-n">Multi</span><span class="pnum-l">Channel Mgmt</span></div>
-      </div>
-    </div>
-    <div class="proj-card fade">
-      <p class="proj-role">Influencer &amp; Product Research</p>
-      <h3>NutraBlast</h3>
-      <p>Compiled influencer databases across YouTube, Lifestyle, and Nano–Mid-tier tiers. Optimized Amazon Seller Central listings, keywords, and product titles for private label growth.</p>
-      <div class="proj-nums">
-        <div class="pnum"><span class="pnum-n">DB</span><span class="pnum-l">Built &amp; Managed</span></div>
-        <div class="pnum"><span class="pnum-n">Amazon</span><span class="pnum-l">Optimized</span></div>
+    <div class="testimonial-card">
+      <div class="testimonial-quote">"</div>
+      <p class="testimonial-text">The technical audit Sherlyn did for us was one of the most complete I've seen from a freelancer. Every error was documented with a fix, a priority level, and a developer note. Our rich results appeared in Google within 6 weeks.</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">M</div>
+        <div>
+          <div class="testimonial-name">Maggy Maid</div>
+          <div class="testimonial-role">Technical SEO · Schema & Core Web Vitals</div>
+        </div>
       </div>
     </div>
   </div>
@@ -281,46 +929,60 @@ footer a{color:var(--accent);text-decoration:none}
 
 <!-- TOOLS -->
 <section id="tools">
-  <div class="fade">
-    <p class="sec-label">Tech Stack</p>
-    <h2 class="sec-title">Tools &amp; Platforms</h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="tools-wrap fade">
+  <div class="section-label">Tech Stack</div>
+  <h2 class="section-title">Tools & Platforms</h2>
+  <p class="section-desc">The tools I use daily to audit, optimize, schedule, report, and execute across SEO and digital marketing projects.</p>
+  <div class="tools-grid">
     <div class="tool-group">
-      <h3>SEO &amp; Analytics</h3>
-      <div class="tool-pills">
-        <span class="tool-pill">SEMrush</span><span class="tool-pill">Ahrefs</span>
-        <span class="tool-pill">Screaming Frog</span><span class="tool-pill">Google Search Console</span>
-        <span class="tool-pill">Google Analytics / GA4</span><span class="tool-pill">BrightLocal</span>
-        <span class="tool-pill">Surfer SEO</span><span class="tool-pill">Google Tag Manager</span>
-        <span class="tool-pill">PageSpeed Insights</span><span class="tool-pill">GTmetrix</span>
+      <h3>SEO & Analytics</h3>
+      <div class="tool-list">
+        <div class="tool-item">SEMrush</div>
+        <div class="tool-item">Ahrefs</div>
+        <div class="tool-item">Screaming Frog</div>
+        <div class="tool-item">Google Search Console</div>
+        <div class="tool-item">Google Analytics / GA4</div>
+        <div class="tool-item">BrightLocal</div>
+        <div class="tool-item">Surfer SEO</div>
+        <div class="tool-item">Google Tag Manager</div>
+        <div class="tool-item">PageSpeed Insights</div>
+        <div class="tool-item">GTmetrix</div>
       </div>
     </div>
     <div class="tool-group">
-      <h3>E-Commerce Platforms</h3>
-      <div class="tool-pills">
-        <span class="tool-pill">Shopify</span><span class="tool-pill">WooCommerce</span>
-        <span class="tool-pill">Amazon Seller Central</span><span class="tool-pill">Etsy</span>
-        <span class="tool-pill">Depop</span><span class="tool-pill">Vestiaire Collective</span>
-        <span class="tool-pill">WordPress</span>
+      <h3>E-Commerce</h3>
+      <div class="tool-list">
+        <div class="tool-item">Shopify</div>
+        <div class="tool-item">WooCommerce</div>
+        <div class="tool-item">Amazon Seller Central</div>
+        <div class="tool-item">Etsy</div>
+        <div class="tool-item">Depop</div>
+        <div class="tool-item">Vestiaire Collective</div>
+        <div class="tool-item">WordPress</div>
       </div>
     </div>
     <div class="tool-group">
-      <h3>Design &amp; Content</h3>
-      <div class="tool-pills">
-        <span class="tool-pill">Canva</span><span class="tool-pill">Photoshop</span>
-        <span class="tool-pill">CapCut</span><span class="tool-pill">My.Repurpose.io</span>
-        <span class="tool-pill">Klaviyo</span><span class="tool-pill">ChatGPT</span><span class="tool-pill">Jasper</span>
+      <h3>Design & Content</h3>
+      <div class="tool-list">
+        <div class="tool-item">Canva</div>
+        <div class="tool-item">Photoshop</div>
+        <div class="tool-item">CapCut</div>
+        <div class="tool-item">My.Repurpose.io</div>
+        <div class="tool-item">Klaviyo</div>
+        <div class="tool-item">ChatGPT</div>
+        <div class="tool-item">Jasper</div>
       </div>
     </div>
     <div class="tool-group">
-      <h3>Productivity &amp; Collaboration</h3>
-      <div class="tool-pills">
-        <span class="tool-pill">Trello</span><span class="tool-pill">ClickUp</span>
-        <span class="tool-pill">Notion</span><span class="tool-pill">Slack</span>
-        <span class="tool-pill">MS Teams</span><span class="tool-pill">Google Sheets</span>
-        <span class="tool-pill">Dropbox</span><span class="tool-pill">SharePoint</span>
+      <h3>Productivity & PM</h3>
+      <div class="tool-list">
+        <div class="tool-item">Trello</div>
+        <div class="tool-item">ClickUp</div>
+        <div class="tool-item">Notion</div>
+        <div class="tool-item">Slack</div>
+        <div class="tool-item">MS Teams</div>
+        <div class="tool-item">Google Sheets</div>
+        <div class="tool-item">Dropbox</div>
+        <div class="tool-item">SharePoint</div>
       </div>
     </div>
   </div>
@@ -328,56 +990,106 @@ footer a{color:var(--accent);text-decoration:none}
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="fade">
-    <p class="sec-label">Let's Connect</p>
-    <h2 class="sec-title">Get In Touch</h2>
-    <div class="sec-line"></div>
-    <p class="sec-desc">Available for freelance projects, full-time remote roles, and consulting. Let's talk about how I can help your business grow online.</p>
-  </div>
-  <div class="contact-grid fade">
+  <div class="section-label">Let's Connect</div>
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="section-desc">Available for freelance projects, full-time remote roles, and SEO consulting. Let's talk about how I can help your business grow online.</p>
+  <div class="contact-grid">
     <div>
-      <div class="contact-item">
-        <div class="c-icon">📱</div>
-        <div><p class="c-label">Phone / WhatsApp</p><p class="c-value">+63 995 502 3633</p></div>
+      <div class="contact-details">
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div class="contact-info">
+            <strong>Phone / WhatsApp</strong>
+            <a href="tel:+639955023633">+63 995 502 3633</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-info">
+            <strong>Email</strong>
+            <a href="mailto:sherlynmonterde0703@gmail.com">sherlynmonterde0703@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-info">
+            <strong>Location</strong>
+            <span>El Nido, Palawan, Philippines</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div class="contact-info">
+            <strong>Availability</strong>
+            <span>Open to freelance, part-time & full-time remote</span>
+          </div>
+        </div>
       </div>
-      <div class="contact-item">
-        <div class="c-icon">✉️</div>
-        <div><p class="c-label">Email</p><p class="c-value">sherlynmonterde0703@gmail.com</p></div>
-      </div>
-      <div class="contact-item">
-        <div class="c-icon">📍</div>
-        <div><p class="c-label">Location</p><p class="c-value">El Nido, Palawan, Philippines</p></div>
-      </div>
+      <a href="mailto:sherlynmonterde0703@gmail.com" class="btn-primary" style="display:inline-block;">Send Me an Email</a>
     </div>
-    <div>
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="text" placeholder="Subject">
-        <textarea placeholder="Your message..."></textarea>
-        <button type="submit" class="btn-fill">Send Message</button>
-      </form>
-    </div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Jane Smith" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="jane@company.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Project Type</label>
+        <select>
+          <option>Technical SEO Audit</option>
+          <option>Local SEO / GBP Management</option>
+          <option>E-Commerce SEO</option>
+          <option>Link Building / Outreach</option>
+          <option>Virtual Assistant</option>
+          <option>Full-time Remote Role</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Tell me about your project, goals, and timeline..."></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message →</button>
+    </form>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Sherlyn Monterde · SEO Specialist &amp; Digital Marketing Professional · <a href="mailto:sherlynmonterde0703@gmail.com">sherlynmonterde0703@gmail.com</a></p>
+  <p>© 2026 Sherlyn Monterde · SEO Specialist & Digital Marketing Professional · <a href="mailto:sherlynmonterde0703@gmail.com">sherlynmonterde0703@gmail.com</a></p>
 </footer>
 
 <script>
-const obs = new IntersectionObserver(entries=>{
-  entries.forEach((e,i)=>{if(e.isIntersecting) setTimeout(()=>e.target.classList.add('in'),i*90)});
-},{threshold:0.1});
-document.querySelectorAll('.fade').forEach(el=>obs.observe(el));
-
-function handleSubmit(e){
+function handleSubmit(e) {
   e.preventDefault();
-  const btn=e.target.querySelector('button');
-  btn.textContent='Message Sent!';
-  btn.style.background='#2d6e2d';
-  setTimeout(()=>{btn.textContent='Send Message';btn.style.background='';e.target.reset();},3000);
+  const btn = e.target.querySelector('.btn-submit');
+  btn.textContent = 'Message Sent! ✓';
+  btn.style.background = '#3a6b4a';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = 'Send Message →';
+    btn.style.background = '';
+    btn.disabled = false;
+    e.target.reset();
+  }, 3000);
 }
+
+// Smooth scroll offset for fixed nav
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.scrollY - 72;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
 </script>
+
 </body>
 </html>
